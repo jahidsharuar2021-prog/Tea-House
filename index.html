@@ -21,16 +21,56 @@
     </style>
   </head>
   <body>
-   <section class=" grid grid-cols-2 container  mx-auto">
+    <!-- banner section -->
+   <section class=" grid grid-cols-1 md:grid-cols-2 container  mx-auto">
     <div class="banner-left space-y-[30px]">
-    <h2 class="text-[80px] font-extrabold">It's good <br>
+    <h2 class="text-[80px] font-extrabold leading-[100px]">It's good <br>
      tea time at The <br>Tea House</h2>
      <p class="text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
      <button class="py-3 px-5 rounded-md font-bold text-[20px] text-white bg-linear-to-r from-[#FF0000] to-[#FF8938]">Explore More <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right-long"></i></span></button>
     </div>
-    <div class="banner-right">
+
+    <div class="banner-right flex items-end justify-end relative">
      <img src="./images/banner.png" alt="">
+
+     <div class="bg-white rounded-xl shadow-2xl flex justify-center item-center gap-2 w-[255px] absolute left-[220px] bottom-[15px] py-[25px] px-[15px]"><img src="./images/star.png" alt="">
+    <div>
+    <h2 class="font-bold text-2xl">5.00</h2>
+    <p class="font-semibold text-[#777777]">Trust Pilot Ratings</p>
+    </div>
+  </div>
     </div>
    </section>
+   <!-- feature section -->
+    <section class="container my-[100px] mx-auto ">
+      <div class="text-center max-w-[65%]  mx-auto">
+       <h1 class="font-extrabold text-[45px]">Our Featured Products</h1>
+        <p class="text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+      </div>
+      <!-- card section -->
+      <div class="card-parents grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-center mt-7">
+        <div class="feature-card bg-linear-to-b from-[#F4F4F4] to-[#F4F4F4] p-[30px] rounded-xl">
+         <img src="./images/tea-1.png" alt="" class="mx-auto mb-7">
+         <h2 class="font-extrabold text-2xl">Milk Tea</h2>
+         <p class="text-[#777777] font-semibold">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="feature-card bg-linear-to-b from-[#F4F4F4] to-[#F4F4F4] p-[30px] rounded-xl">
+         <img src="./images/tea-2.png" alt="" class="mx-auto mb-7">
+         <h2 class="font-extrabold text-2xl">Black Tea</h2>
+         <p class="text-[#777777] font-semibold">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="feature-card bg-linear-to-b from-[#F4F4F4] to-[#F4F4F4] p-[30px] rounded-xl">
+         <img src="./images/tea-3.png" alt="" class="mx-auto mb-7">
+         <h2 class="font-extrabold text-2xl">Lemon Tea</h2>
+         <p class="text-[#777777] font-semibold">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="feature-card bg-linear-to-b from-[#F4F4F4] to-[#F4F4F4] p-[30px] rounded-xl">
+         <img src="./images/tea-4.png" alt="" class="mx-auto mb-7">
+         <h2 class="font-extrabold text-2xl">Green Tea</h2>
+         <p class="text-[#777777] font-semibold">Creamer could be replaced by fresh milk</p>
+        </div>
+       
+      </div>
+    </section>
   </body>
 </html>
